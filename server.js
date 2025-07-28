@@ -53,3 +53,4 @@ app.event('app_mention', async ({ event, say }) => {
     console.log(`⚡️ SCG GPT bot is running on port ${PORT}`);
   });
 })();
+Enable Slack URL challenge handling
