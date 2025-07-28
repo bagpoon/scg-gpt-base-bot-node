@@ -4,15 +4,15 @@
   "description": "Slack-GPT bot server",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "author": "Rootstrap",
   "license": "ISC",
   "dependencies": {
     "@slack/bolt": "^3.13.0",
     "dotenv": "^16.0.3",
-    "openai": "^3.3.0"
+    "openai": "^3.3.0",
     "express": "^4.18.2"
   }
-
+}
 
